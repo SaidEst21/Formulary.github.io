@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/c699a0faeb.js" crossorigin="anonymous"></script>
+    <title>Tipos de Formulario</title>
+    <link rel="icon" href="assets/icon/icon.ico">
+</head>
+<body class="body">
+
+    <div class="contact-container" tabindex="true" style="--contact-container-left: -100px">
+        
+        <div class="contact-content">
+            <ul class="flex-container">
+                <li>
+                    <a href="mailto:saiddorca@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        <b>Mail</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/SaidEst21">
+                        <i class="fa-brands fa-square-github"></i>
+                        <b>GitHub</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/said_dev">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        <b>Twitter</b>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact" style="--contact-left: 0px;">
+        <div>
+            <i class="fa-solid fa-user"></i>
+            <b>Contacto</b>
+        </div>
+    </div>
+    <section>
+
+        <div>
+            <ul class="options">
+                <li class="selected">Log in</li>
+                <li class="">Sign up</li>
+            </ul>
+            <div class="current-form">
+
+                <h2 class="form-title">Log in</h2>
+                <form class="form-container">
+    
+                    <div>
+                        <label for="user-id">Correo Electronico o Nombre Usuario</label>
+                        <input id="user-id" type="email">
+                    </div>
+                    <div>
+                        <label for="user-password">Contraseña</label>
+                        <input id="user-password" type="password">
+                        <i class="fa-solid fa-eye see-password"></i>
+                    </div>
+                    <button type="reset">Reiniciar</button>
+                    <button class="submit" type="submit">Entrar</button>
+                </form>
+                <div>
+                    <b class="error"></b>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/contact.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
